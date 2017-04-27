@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [iron-node (v3.0.18)](https://github.com/s-a/iron-node#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-iron-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-iron-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-iron-node.svg)](https://travis-ci.org/npmtest/node-npmtest-iron-node)",
+    "description": "#### basic test coverage for  [iron-node (v3.0.18)](https://github.com/s-a/iron-node#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-iron-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-iron-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-iron-node.svg)](https://travis-ci.org/npmtest/node-npmtest-iron-node)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "iron-node": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }
